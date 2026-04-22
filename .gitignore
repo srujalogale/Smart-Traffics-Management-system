@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Node / React
+node_modules/
+dist/
+.next/
+*.log
+
+# OS
+.DS_Store
+__MACOSX/
+Thumbs.db
+
+# Model weights (large files)
+*.pt
+
+# env files
+.env
+.env.local
+
+# Git nested repos (remove inner .git so they are tracked as normal folders)
+Traffic-Monitoring-System/.git
+smart-route-sim/.git
+IOT-based-traffic-monitoring-system/.git
