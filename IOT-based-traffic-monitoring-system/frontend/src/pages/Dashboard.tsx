@@ -10,7 +10,7 @@ import Footer from '@/components/Footer';
 import ImprovedIntersectionViz from '@/components/ImprovedIntersectionViz';
 import CorridorMap, { CorridorSignalNode } from '@/components/CorridorMap';
 
-const FLASK_BASE = 'http://127.0.0.1:5000';
+const FLASK_BASE = 'https://smart-traffics-management-system.onrender.com';
 
 interface LaneData {
   id: number;

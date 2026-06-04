@@ -11,7 +11,7 @@ import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import IntersectionMap from '@/components/IntersectionMap';
 
-const FLASK_BASE = 'http://127.0.0.1:5000';
+const FLASK_BASE = 'https://smart-traffics-management-system.onrender.com';
 
 interface SystemConfig {
   weather: 'clear' | 'rain' | 'fog';

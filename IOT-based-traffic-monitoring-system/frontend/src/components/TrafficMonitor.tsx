@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { AlertTriangle, Wifi, WifiOff, Camera, Car } from "lucide-react";
 import Navigation from "@/components/Navigation";
 
-const FLASK_BASE = "http://127.0.0.1:5000";
+const FLASK_BASE = "https://smart-traffics-management-system.onrender.com";
 
 interface CountData {
   lane1: number;
