@@ -4,7 +4,7 @@ import { TrafficCone, Shield, Map, Home, Cpu, Camera } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 import { useEffect, useState } from "react";
 
-const FLASK_BASE = "https://smart-traffics-management-system.onrender.com";
+const FLASK_BASE = "https://smart-traffic-backend-a174.onrender.com";
 
 const Navigation = () => {
   const location = useLocation();
